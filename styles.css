@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #2b6777;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #2b6777;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+a.button {
+    background-color: #52ab98;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+a.button:hover {
+    background-color: #3d8b7e;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Section Styles */
+#home {
+    background: url('climate-action.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home .container h1 {
+    font-size: 48px;
+    color: white;
+}
+
+#home .container p {
+    font-size: 24px;
+    color: #eaeaea;
+}
+
+#resources ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#chatbox {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+#messages {
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#userInput {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#sendBtn {
+    width: 80px;
+    padding: 10px;
+    background-color: #52ab98;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#sendBtn:hover {
+    background-color: #3d8b7e;
+}
